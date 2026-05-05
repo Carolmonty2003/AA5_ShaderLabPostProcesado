@@ -1942,6 +1942,9 @@ MonoBehaviour:
   - Keyword: _COLORGRAD
     Material: {fileID: 2100000, guid: 859ee2f1c8b9a2b48b9044532059869e, type: 2}
     Key: 51
+  - Keyword: _LENS
+    Material: {fileID: 2100000, guid: d6837cf368373a649a4651d00e30ea0d, type: 2}
+    Key: 52
 --- !u!4 &1613629125
 Transform:
   m_ObjectHideFlags: 0

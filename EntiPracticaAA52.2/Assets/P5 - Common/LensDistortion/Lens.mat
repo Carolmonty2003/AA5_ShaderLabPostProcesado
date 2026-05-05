@@ -7,12 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ColorGrad
-  m_Shader: {fileID: -6465566751694194690, guid: a3436a2d02d450a42934ac1df8c85020, type: 3}
+  m_Name: Lens
+  m_Shader: {fileID: -6465566751694194690, guid: 251dfc3b6da7d4d4bafca1d46d2cfcf8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _COLORGRAD
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -38,10 +37,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brightness: 1
-    - _COLORGRAD: 0
-    - _Saturation: 2.47
-    m_Colors:
-    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _LENS: 1
+    - _Strength: 0.73
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
