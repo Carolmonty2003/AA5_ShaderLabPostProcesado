@@ -7,12 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Vignette
-  m_Shader: {fileID: -6465566751694194690, guid: 13b5b7d221c5f734484b2925a37aa8ea, type: 3}
+  m_Name: Chromatic
+  m_Shader: {fileID: -6465566751694194690, guid: 439d4c7194092fe4c9d17a2a38f027aa, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - Chromatic
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -37,10 +38,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amount: 0.68
-    - _Hardness: 0.97
+    - _CHROMATIC: 0
+    - _Falloff: 0.07
+    - _Strength: 0.03
     m_Colors:
     - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
