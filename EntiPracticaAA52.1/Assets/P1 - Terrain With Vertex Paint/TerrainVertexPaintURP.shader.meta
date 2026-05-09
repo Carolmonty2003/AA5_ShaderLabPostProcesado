@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ba6c774170480f244a8e5a0ed760b88c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _A_Albedo: {instanceID: 0}
+  - _A_Normal: {instanceID: 0}
+  - _A_Mask: {instanceID: 0}
+  - _B_Albedo: {instanceID: 0}
+  - _B_Normal: {instanceID: 0}
+  - _B_Mask: {instanceID: 0}
+  - _SnowNormal: {instanceID: 0}
+  - _NoiseMap: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
